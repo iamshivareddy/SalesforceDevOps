@@ -13,5 +13,7 @@ public with sharing class Calculator {
     public static Decimal add(Decimal a, Decimal b) {
         return a + b;
     }
-
+    public static Integer subtract(Integer a, Integer b) {
+        return a - b;
+    }
 }
